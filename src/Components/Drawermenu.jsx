@@ -6,7 +6,7 @@ import { Button,
     DrawerOverlay, 
     flexbox, 
     Icon, 
-    Link, 
+   
     Menu, 
     MenuButton, 
     MenuItem, 
@@ -17,6 +17,7 @@ import { Button,
     VStack } from '@chakra-ui/react'
     import { HamburgerIcon } from '@chakra-ui/icons'
 import React, { useRef } from 'react'
+import { Link } from 'react-scroll'
 
 
 const Drawermenu = () => {
@@ -68,32 +69,29 @@ const Drawermenu = () => {
            <MenuButton display={{base:'flex',md:'none',lg:'none'}} variant='ghost' as={HamburgerIcon}>  </MenuButton>
           <MenuList>
             <MenuItem>
-            <Button _hover={{color:'black'}} variant='ghost'>
-                        <Link to='/'>
-                            <Text size='xl'>About</Text>
-                        </Link>
-                    </Button>
+            <Link to='about' activeClass='active' spy={true} smooth={true} offset={-55}>   
+                <Text size='xl'>About</Text>
+            </Link>
             </MenuItem>
             <MenuItem>
-            <Button _hover={{color:'black'}} variant='ghost'>
-                        <Link to='/'>
-                            <Text size='xl'>Skills</Text>
-                        </Link>
-                    </Button>
+            <Link to='skills' activeClass='active' spy={true} smooth={true} offset={-55}>   
+                <Text size='xl'>Skills</Text>
+            </Link>
             </MenuItem>
             <MenuItem>
-            <Button _hover={{color:'black'}} variant='ghost'>
-                        <Link to='/'>
-                            <Text size='xl'>Project</Text>
-                        </Link>
-                    </Button>
+            <Link to='project' activeClass='active' spy={true} smooth={true} offset={-55}>   
+                <Text size='xl'>Project</Text>
+            </Link>
             </MenuItem>
             <MenuItem>
-            <Button _hover={{color:'black'}} variant='ghost'>
-                        <Link to='/'>
-                            <Text size='xl'>Contact</Text>
-                        </Link>
-                    </Button>
+            <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-55}>   
+                <Text size='xl'>Contact</Text>
+            </Link>
+            </MenuItem>
+            <MenuItem>
+            <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-55}>   
+                <Text size='xl'>Resume</Text>
+            </Link>
             </MenuItem>
           </MenuList>
          

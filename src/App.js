@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
+import TechStack from './Components/TechStack/TechStack';
+import Projects from './Components/Project/Projects';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
      <Navbar/>
      <Home/>
      <About/>
+     <TechStack/>
+     {/* <Projects/> */}
     </div>
   );
 }
