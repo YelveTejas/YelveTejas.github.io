@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f90a383.css",
-    "main.js": "/static/js/main.3d52c44f.js",
+    "main.css": "/static/css/main.bfcd44de.css",
+    "main.js": "/static/js/main.38a28b4c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/home.png": "/static/media/home.9ce197cd354c0937e6ca.png",
+    "static/media/booking.png": "/static/media/booking.1244222ab94dedd44efd.png",
+    "static/media/home_page.png": "/static/media/home_page.59675c6ed1821e78c655.png",
+    "static/media/productPage.png": "/static/media/productPage.b5fd354c6ebf6775b90e.png",
+    "static/media/gearbest_addtocart.png": "/static/media/gearbest_addtocart.4a96be2a679e522f6194.png",
     "static/media/profilepic_whitebg.jpg": "/static/media/profilepic_whitebg.5f2fb72956475b9d29cf.jpg",
+    "static/media/Tejas Yelve-Resume.pdf": "/static/media/Tejas Yelve-Resume.286575cab0c38450230f.pdf",
+    "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
+    "static/media/dsa.jpg": "/static/media/dsa.5275c4a09c53acc8fa8b.jpg",
+    "static/media/java_script.jpg": "/static/media/java_script.2a1410b38a792b28dbc2.jpg",
+    "static/media/git.jpg": "/static/media/git.abbe0463d41f97043f3d.jpg",
+    "static/media/html.jpg": "/static/media/html.5aeb7784a4f555fd7741.jpg",
+    "static/media/react.png": "/static/media/react.9911848e6c15b84c4b0c.png",
+    "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
+    "static/media/mongodb.png": "/static/media/mongodb.ac47c497a10891dc7bed.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.5f90a383.css.map": "/static/css/main.5f90a383.css.map",
-    "main.3d52c44f.js.map": "/static/js/main.3d52c44f.js.map",
+    "main.bfcd44de.css.map": "/static/css/main.bfcd44de.css.map",
+    "main.38a28b4c.js.map": "/static/js/main.38a28b4c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f90a383.css",
-    "static/js/main.3d52c44f.js"
+    "static/css/main.bfcd44de.css",
+    "static/js/main.38a28b4c.js"
   ]
 }
