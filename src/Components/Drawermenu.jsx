@@ -89,9 +89,9 @@ const Drawermenu = () => {
             </Link>
             </MenuItem>
             <MenuItem>
-            <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-55}>   
-                <Text size='xl'>Resume</Text>
-            </Link>
+            <a href='https://drive.google.com/file/d/1Y7DFIqh6waMPzkrTOb2u2MvRTJfo4nMv/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <Text cursor='pointer' size='xl'>Resume</Text>
+            </a>
             </MenuItem>
           </MenuList>
          

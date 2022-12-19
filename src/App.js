@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import TechStack from './Components/TechStack/TechStack';
 import Projects from './Components/Project/Projects';
+import Contacts from './Components/Contacts';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      <Home/>
      <About/>
      <TechStack/>
-     {/* <Projects/> */}
+     <Projects/>
+     <Contacts/>
     </div>
   );
 }

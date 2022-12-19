@@ -12,11 +12,11 @@ const Navbar = () => {
        <Flex
        className='main'
         py={4}
-         px={{ base: 5}}
+         px={{ base: 5,md:10,lg:10}}
         
         w='100%'
         top='0'
-        bg='cyan.500'
+        bg='orange.500'
         boxShadow='2xl'
         alignItems='center'
         // gap='5'
@@ -30,26 +30,29 @@ const Navbar = () => {
         </Button>
         <Spacer/>
         <Drawermenu/>
-        <IconButton  icon={isdark  ? <FaSun/>:<FaMoon/>} isRound={true} onClick={toggleColorMode} bg='cyan.500'></IconButton>
+        <IconButton  icon={isdark  ? <FaSun/>:<FaMoon/>} isRound={true} onClick={toggleColorMode} bg='orange.500'></IconButton>
         <HStack display={{base:'none', md:'flex',lg:'flex'}} spacing={10}>
               <Link to='Navbar' activeClass='active' spy={true} smooth={true} offset={-130}>
-                  <Text cursor='pointer' size='2xl'>Home</Text>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>Home</Text>
               </Link>
               <Link to='about' activeClass='active' spy={true} smooth={true} offset={-100}>
-                  <Text cursor='pointer' size='2xl'>About</Text>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>About</Text>
               </Link>
               <Link to='skills' activeClass='active' spy={true} smooth={true} offset={-100}>
-                  <Text cursor='pointer' size='2xl'>Skills</Text>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>Skills</Text>
               </Link>
               <Link to='project' activeClass='active' spy={true} smooth={true} offset={-100}>
-                  <Text cursor='pointer' size='xl'>Project</Text>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>Project</Text>
               </Link>
               <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-100}>
-                  <Text cursor='pointer' size='xl'>Contact</Text>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
-              <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-100}>
-                  <Text cursor='pointer' size='xl'>Resume</Text>
-              </Link>
+           
+                <a href='https://drive.google.com/file/d/1Y7DFIqh6waMPzkrTOb2u2MvRTJfo4nMv/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <Text cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
+                </a>
+                 
+              
         </HStack>
     
        </Flex>
