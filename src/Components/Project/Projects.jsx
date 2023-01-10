@@ -53,7 +53,7 @@ const Projects = () => {
                     <div>
                 <Text mt={2}
                  fontSize='xx-large'
-                 color='cyan.500'
+                 color='orange.500'
                  fontWeight='semibold'
 
                 >Gearbest.com</Text>     
@@ -126,7 +126,7 @@ const Projects = () => {
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
                   <Text fontSize={'large'}>It was an individual Project Entire website build me.</Text>
                   <Flex  gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
-                  <Link href='https://jolly-parfait-7a8c01.netlify.app/retreats' isExternal >
+                  <Link href='https://jolly-parfait-7a8c01.netlify.app/' isExternal >
                   <FaRegEye size={'2rem'}/>
                   </Link>
                   <Link href='https://github.com/YelveTejas/wasteful-underwear-8541' isExternal>
@@ -161,7 +161,7 @@ const Projects = () => {
                  color='orange.500'
                  fontWeight='semibold'
 
-                >Tripoto.com</Text>     
+                >Chargebee.com</Text>     
                     </div>
                 </Box>
             </Box>
@@ -179,7 +179,7 @@ const Projects = () => {
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
                   <Text fontSize={'large'}>It was an group project. I have built the form page and main page </Text>
                   <Flex  gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
-                  <Link href='https://magnificent-blancmange-f2eb68.netlify.app/coustmer.html' isExternal >
+                  <Link href='https://magnificent-blancmange-f2eb68.netlify.app/coustmer.htm' isExternal >
                   <FaRegEye size={'2rem'}/>
                   </Link>
                   <Link href='https://github.com/aks-samanta/Charbee.com_Clone' isExternal>
@@ -196,8 +196,10 @@ const Projects = () => {
     
     </Box>
    
-    <Box  width={['95%','80%','65%']} m='auto' mb={'20px'}>
-    <GitHubCalendar  username="YelveTejas" color='orange'  /> 
+    <Box  width={['95%','80%','65%']}  m='auto' mb={'20px'}>
+      <Box align='center'>
+    <GitHubCalendar  username="YelveTejas" color='orange'  />
+    </Box> 
     </Box>
     <Box >
     <Stack  align='center' justifyContent='center'>

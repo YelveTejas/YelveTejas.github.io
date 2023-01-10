@@ -19,7 +19,7 @@ const Home = () => {
           <Text fontWeight='bold' align='left' fontSize='1.5rem'>Hello,I am</Text>
          
          <Text fontWeight='bold' align='left'  mt={{lg:'15px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color={color}>Tejas Yelve</Text>
-          <Text className='title'  fontWeight='semibold' align='left' pt={{base:'10px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color='orange.500'
+          <Text className='title'  fontWeight='semibold' align='left' pt={{base:'10px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color='#ff8533'
 >
                     <h1>
                             <Typical
@@ -37,7 +37,7 @@ const Home = () => {
                         </h1>
                 </Text>
                 <a href={Resume} download>
-                <Button bg='orange.500' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
+                <Button bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
                 </a>
                 <HStack spacing={5} mt='15px'>
                   <Link href='https://github.com/YelveTejas' isExternal>

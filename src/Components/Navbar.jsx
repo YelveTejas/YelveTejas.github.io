@@ -16,7 +16,7 @@ const Navbar = () => {
         
         w='100%'
         top='0'
-        bg='orange.500'
+        bg='#ff8533'
         boxShadow='2xl'
         alignItems='center'
         // gap='5'
@@ -30,7 +30,7 @@ const Navbar = () => {
         </Button>
         <Spacer/>
         <Drawermenu/>
-        <IconButton  icon={isdark  ? <FaSun/>:<FaMoon/>} isRound={true} onClick={toggleColorMode} bg='orange.500'></IconButton>
+        <IconButton  icon={isdark  ? <FaSun/>:<FaMoon/>} isRound={true} onClick={toggleColorMode} bg='#ff8533'></IconButton>
         <HStack display={{base:'none', md:'flex',lg:'flex'}} spacing={10}>
               <Link to='Navbar' activeClass='active' spy={true} smooth={true} offset={-130}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Home</Text>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
            
-                <a href='https://drive.google.com/file/d/1Y7DFIqh6waMPzkrTOb2u2MvRTJfo4nMv/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <a href='https://drive.google.com/file/d/1YEJka6iLsnJzd7eMWM4QEXKuq2M1jn0b/view?usp=share_link' rel='noreferrer' target={'_blank'}>
                 <Text cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
                 </a>
                  

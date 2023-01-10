@@ -98,7 +98,7 @@ const TechStack = () => {
   return (
     <div name='skills'>
       <Container mt='3cm'>
-        <Text fontSize='2rem' fontWeight='bold'>Skills</Text>
+        <Text fontSize='2rem' fontWeight='bold' color='#ff8533'>Skills</Text>
       </Container>
         <SimpleGrid w='70%' margin='auto'  mt='2cm'  columns={[2,4,4]} spacing='40px' >
          {

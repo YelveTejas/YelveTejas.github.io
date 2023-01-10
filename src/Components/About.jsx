@@ -10,7 +10,7 @@ const About = () => {
  },[])
   return (
     <div  className='about'>
-        <Container fontSize='2rem' fontWeight='bold' mt={{base:'2cm',md:'2cm',lg:'3cm'}}>About Me</Container>
+        <Container  fontSize='2rem' fontWeight='bold' mt={{base:'2cm',md:'2cm',lg:'3cm'}}><Text color='#ff8533'>About Me</Text></Container>
         <Stack w={{lg:'80%',md:'90%'}}  direction={{base:'column',md:'row',lg:'row'}}  margin='auto' h='auto'  gap={5}  alignItems='center'>
         <Image w={{base:'80%',md:'6cm',lg:'15cm'}}  data-aos="fade-right"  borderRadius='20px'mt='1cm' h={{base:'5cm',md:'6cm',lg:'8cm'}} src='https://manojattri.vercel.app/static/media/working1.f1d32db1cbbe55b90885.webp'></Image>
           <Box  mt='-30px' data-aos="fade-right"   w={{base:'9cm',md:'100%',lg:'21cm'}} >
