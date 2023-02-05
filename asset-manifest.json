@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bfcd44de.css",
-    "main.js": "/static/js/main.7c9fce58.js",
+    "main.js": "/static/js/main.4900d21a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/home.png": "/static/media/home.9ce197cd354c0937e6ca.png",
+    "static/media/amazon.png": "/static/media/amazon.c0b820a1f9b102f1f5bd.png",
     "static/media/booking.png": "/static/media/booking.1244222ab94dedd44efd.png",
+    "static/media/jio_home.png": "/static/media/jio_home.1fcadf927ee014dec22b.png",
     "static/media/home_page.png": "/static/media/home_page.59675c6ed1821e78c655.png",
     "static/media/productPage.png": "/static/media/productPage.b5fd354c6ebf6775b90e.png",
     "static/media/gearbest_addtocart.png": "/static/media/gearbest_addtocart.4a96be2a679e522f6194.png",
@@ -21,11 +23,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.bfcd44de.css.map": "/static/css/main.bfcd44de.css.map",
-    "main.7c9fce58.js.map": "/static/js/main.7c9fce58.js.map",
+    "main.4900d21a.js.map": "/static/js/main.4900d21a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfcd44de.css",
-    "static/js/main.7c9fce58.js"
+    "static/js/main.4900d21a.js"
   ]
 }
