@@ -48,7 +48,7 @@ const Navbar = () => {
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
            
-                <a href='https://drive.google.com/file/d/1YEJka6iLsnJzd7eMWM4QEXKuq2M1jn0b/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <a href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' rel='noreferrer' target={'_blank'}>
                 <Text cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
                 </a>
                  

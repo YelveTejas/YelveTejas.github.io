@@ -5,12 +5,14 @@ import { useEffect } from 'react'
 import { Carousel } from 'react-responsive-carousel'
  import gearbest1 from './Gearbest/gearbest_addtocart.png' 
  import gearbest2 from './Gearbest/home_page.png'
+ import jio_home from './amazon/jio_home.png'
  import chargebee1 from './chargebee/home.png'
  import gearbest3 from './Gearbest/productPage.png'
  import {FaGithub, FaRegEye} from 'react-icons/fa'
  import tripoto1 from './tripoto/home.png'
  import tripoto2 from './tripoto/booking.png'
  import GitHubCalendar from 'react-github-calendar'
+ import amazon from './amazon/amazon.png'
 
 const Projects = () => {
 
@@ -72,7 +74,7 @@ const Projects = () => {
                     HTML | CSS | Javascript
                   </Text>
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
-                  <Text fontSize={'large'}>It was an individual Project Entire website build me.</Text>
+                  <Text fontSize={'large'}>It was an individual Project.</Text>
                   <Flex gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
                   <Link href='https://kaleidoscopic-phoenix-a0b181.netlify.app/phone.html' isExternal>
                   <FaRegEye size={'2rem'}/>
@@ -124,9 +126,9 @@ const Projects = () => {
                     React | React-Router-Dom | Axios | Json-Server | Dynamic Routing 
                   </Text>
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
-                  <Text fontSize={'large'}>It was an individual Project Entire website build me.</Text>
+                  <Text fontSize={'large'}>It was an individual Project.</Text>
                   <Flex  gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
-                  <Link href='https://jolly-parfait-7a8c01.netlify.app/' isExternal >
+                  <Link href='https://fabulous-cobbler-459f32.netlify.app/' isExternal >
                   <FaRegEye size={'2rem'}/>
                   </Link>
                   <Link href='https://github.com/YelveTejas/wasteful-underwear-8541' isExternal>
@@ -177,7 +179,7 @@ const Projects = () => {
                     HTML | CSS| Javascript 
                   </Text>
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
-                  <Text fontSize={'large'}>It was an group project. I have built the form page and main page </Text>
+                  <Text fontSize={'large'}>It was an group project.Executated form Page and main page </Text>
                   <Flex  gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
                   <Link href='https://magnificent-blancmange-f2eb68.netlify.app/coustmer.htm' isExternal >
                   <FaRegEye size={'2rem'}/>
@@ -188,9 +190,60 @@ const Projects = () => {
                   </Flex>
                 </Box>
             </Box>
-
-           
           </SimpleGrid>
+          <SimpleGrid
+          h='auto'
+          w={['95%','90%','90%','85%']}
+          m='auto'
+          p={3}
+          columns={[1,1,2]}
+          mt='20px'
+          borderRadius='8px'
+          boxShadow='2xl'
+          >
+            <Box data-aos='fade-up' data-aos-duration='1500' >
+                <Box w='95%' p={3} >
+                    
+                        <div>
+                        <img style={{borderRadius:'7px', height:'300px'}} src={jio_home} alt='gb1'></img>
+                        </div>
+                       
+                    <div>
+                <Text mt={2}
+                 fontSize='xx-large'
+                 color='orange.500'
+                 fontWeight='semibold'
+
+                >JioMart.com</Text>     
+                    </div>
+                </Box>
+            </Box>
+            <Box data-aos='fade-up'
+            data-aos-duration='1500'>
+                <Box p={3}>
+                  <Text letterSpacing={1.5} fontSize='x-large' color='orange.500' fontWeight='semibold'>About Project</Text>
+                  <div>
+                    <Text fontSize='large'>JioMart is an Indian e-commerce company, headquartered in Navi Mumbai, Maharashtra.The company initially focused on online groceries sales before expanding into other product categories such as fashion, home essentials, and lifestyle products.</Text>
+                  </div>
+                  <Text mt={4} fontSize={"x-large"} color="orange.500" fontWeight='semibold'>Tech-Stack</Text>
+                  <Text fontSize={'large'}>
+                    React | Redux| ChakraUI | Mongoose | Express | Nodejs 
+                  </Text>
+                  <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
+                  <Text fontSize={'large'}>It was group project.Executated Authentication through backend.Built signup,signin and cart page</Text>
+                  
+                  <Flex  gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
+                  <Link href='https://jolly-choux-78cc48.netlify.app/' isExternal >
+                  <FaRegEye size={'2rem'}/>
+                  </Link>
+                  <Link href='https://github.com/vishnu9651/rampant-rabbit-487' isExternal>
+                  <FaGithub size={'2rem'}/>
+                  </Link>
+                  </Flex>
+                </Box>
+            </Box>
+          </SimpleGrid>
+          
           <Box mb={10}>
     <Text mt={5} fontSize={'xx-large'} fontWeight='semibold' color={'orange.500'} textAlign='center'>GITHUB STATS</Text>
     

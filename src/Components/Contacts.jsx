@@ -14,7 +14,7 @@ const Contacts = () => {
         
          <Text pt='30px' fontSize={{base:'1.2rem',md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Contact Number - 7506746709 </Text>
       
-         <Text pt='30px' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Email Address - tejasdj45637@gmail.com</Text>
+         <Text pt='30px' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Email Address - tejas.yelve20@gmail.com</Text>
          <Text pt='30px' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Address - Navi Mumbai, Maharashatra</Text>
          <Box margin='auto'w='40%' mt='1cm' display='flex' justifyContent='space-around'>
             <Link href='https://github.com/YelveTejas' isExternal>
