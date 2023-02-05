@@ -7,7 +7,7 @@ import { useMediaQuery } from '@chakra-ui/react'
 import {motion} from 'framer-motion'
 import {FaGithub} from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-import Resume from '../images/Tejas Yelve-Resume.pdf'
+import Resume from '../images/fw17_0469_Tejas_Yelve_Resume.pdf'
 import './navbar.css'
 const Home = () => {
   const {toggleColorMode} = useColorMode()
@@ -36,8 +36,8 @@ const Home = () => {
                             />
                         </h1>
                 </Text>
-                <Link textDecoration='none' href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' download isExternal>
-                <Button bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} onClick={()=>{window.open({Resume})}} >Resume</Button>
+                <Link download href={Resume} isExternal>
+                <Button bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
                 </Link>
                 <HStack spacing={5} mt='15px'>
                   <Link href='https://github.com/YelveTejas' isExternal>
