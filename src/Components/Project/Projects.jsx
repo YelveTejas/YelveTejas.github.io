@@ -76,7 +76,7 @@ const Projects = () => {
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
                   <Text fontSize={'large'}>It was an individual Project.</Text>
                   <Flex gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
-                  <Link href='https://kaleidoscopic-phoenix-a0b181.netlify.app/phone.html' isExternal>
+                  <Link href='https://tubular-cupcake-724f4a.netlify.app/' isExternal>
                   <FaRegEye size={'2rem'}/>
                   </Link>
                   
