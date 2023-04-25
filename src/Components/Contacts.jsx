@@ -12,15 +12,15 @@ const Contacts = ({id}) => {
       </Container>
       <Box h='10cm' mt='10px' alignItems='center'  >
         
-         <Text pt='30px' fontSize={{base:'1.2rem',md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Contact Number - 7506746709 </Text>
+         <Text pt='30px' id='contact-phone' fontSize={{base:'1.2rem',md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Contact Number - 7506746709 </Text>
       
-         <Text pt='30px' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Email Address - tejas.yelve20@gmail.com</Text>
+         <Text pt='30px' id='contact-email' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Email Address - tejas.yelve20@gmail.com</Text>
          <Text pt='30px' fontSize={{base:"1.2rem",md:"1.5rem",lg:"1.5rem"}} fontWeight='medium'>Address - Navi Mumbai, Maharashatra</Text>
          <Box margin='auto'w='40%' mt='1cm' display='flex' justifyContent='space-around'>
-            <Link href='https://github.com/YelveTejas' isExternal>
+            <Link id='contact-github' href='https://github.com/YelveTejas' isExternal>
             <FaGithub size='3rem'/>
             </Link>
-            <Link href='https://www.linkedin.com/in/tejas-yelve-b889671bb/' isExternal>
+            <Link id='contact-linkedin' href='https://www.linkedin.com/in/tejas-yelve-b889671bb/' isExternal>
             <FaLinkedin size='3rem'/>
             </Link>
             <Link >

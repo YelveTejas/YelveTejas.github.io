@@ -18,7 +18,7 @@ const Home = ({id}) => {
           <Box  mt={{md:'1cm',lg:"1cm"}} h={{md:'10cm'}}  w={{base:'8.5cm',md:'10cm',lg:'13cm'}} >
           <Text fontWeight='bold' align='left' fontSize='1.5rem'>Hello,I am</Text>
          
-         <Text fontWeight='bold' align='left'  mt={{lg:'15px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color={color}>Tejas Yelve</Text>
+         <Text fontWeight='bold' id='user-detail-name' align='left'  mt={{lg:'15px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color={color}>Tejas Yelve</Text>
           <Text className='title'  fontWeight='semibold' align='left' pt={{base:'10px'}} fontSize={{base:'1.5rem',md:'1.8rem',lg:'2.3rem'}} color='#ff8533'
 >
                     <h1>

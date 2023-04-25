@@ -32,23 +32,23 @@ const Navbar = ({id}) => {
         <Drawermenu/>
         <IconButton  icon={isdark  ? <FaSun/>:<FaMoon/>} isRound={true} onClick={toggleColorMode} bg='#ff8533'></IconButton>
         <HStack display={{base:'none', md:'flex',lg:'flex'}} spacing={10}>
-              <Link to='Navbar' activeClass='active' spy={true} smooth={true} offset={-130}>
+              <Link to='Navbar'className='nav-link home' activeClass='active' spy={true} smooth={true} offset={-130}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Home</Text>
               </Link>
-              <Link to='about' activeClass='active' spy={true} smooth={true} offset={-100}>
+              <Link to='about' className='nav-link about' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>About</Text>
               </Link>
-              <Link to='skills' activeClass='active' spy={true} smooth={true} offset={-100}>
+              <Link to='skills' className='nav-link skills' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Skills</Text>
               </Link>
-              <Link to='project' activeClass='active' spy={true} smooth={true} offset={-100}>
+              <Link to='project' className='nav-link projects' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Project</Text>
               </Link>
-              <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-100}>
+              <Link to='contact' className='nav-link contact' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
            
-                <a href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <a className='nav-link resume' href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' rel='noreferrer' target={'_blank'}>
                 <Text cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
                 </a>
                  
