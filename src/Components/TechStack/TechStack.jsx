@@ -104,9 +104,9 @@ const TechStack = ({id}) => {
          {
           skills.map((e)=>(
             <Box  data-aos="fade-up" data-aos-duration="1500" key={e.id}>
-               <Box w={'120px'} h={'120px'} m={'auto'} borderRadius='10px' boxShadow='md'>
-               <Image m={'auto'} borderRadius='10px' width='100px' bg='black' src={e.icon} alt='icon'></Image>
-               <Text mt='25px' fontWeight='medium'  textAlign='center'>{e.title}</Text>
+               <Box w={'120px'} h={'120px'} m={'auto'} borderRadius='10px' boxShadow='md' className='skills-card'>
+               <Image className='skills-card-img' m={'auto'} borderRadius='10px' width='100px' bg='black' src={e.icon} alt='icon'></Image>
+               <Text className='skills-card-name' mt='25px' fontWeight='medium'  textAlign='center'>{e.title}</Text>
                </Box>
             </Box>
           ))

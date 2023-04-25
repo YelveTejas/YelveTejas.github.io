@@ -36,7 +36,7 @@ const Home = ({id}) => {
                         </h1>
                 </Text>
                 <Link download href={Resume} isExternal>
-                <Button bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
+                <Button id='resume-button-1' bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
                 </Link>
                 <HStack spacing={5} mt='15px'>
                   <Link href='https://github.com/YelveTejas' isExternal>
@@ -48,7 +48,7 @@ const Home = ({id}) => {
                 </HStack>
           </Box>
            <motion.div border='1px' whileHover={{scale:1.1}}  cursor='pointer' mt={{base:'20px',md:'15px'}}  >
-           <Image w={{lg:"8cm",md:'10cm',base:'7cm'}} h={{lg:'8cm',md:'7cm',base:'7cm'}} mt={{base:'1cm'}}   borderRadius='10px' boxShadow='lg' src={my_image} alt='tejas'></Image>
+           <Image className='home-img' w={{lg:"8cm",md:'10cm',base:'7cm'}} h={{lg:'8cm',md:'7cm',base:'7cm'}} mt={{base:'1cm'}}   borderRadius='10px' boxShadow='lg' src={my_image} alt='tejas'></Image>
            </motion.div>
         </SimpleGrid>
     </Box>
