@@ -10,12 +10,12 @@ import Contacts from './Components/Contacts';
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Home/>
-     <About/>
-     <TechStack/>
-     <Projects/>
-     <Contacts/>
+     <Navbar id='nav-menu'/>
+     <Home id='home'/>
+     <About id='about' className='about section'/>
+     <TechStack id='skills'/>
+     <Projects id='projects'/>
+     <Contacts id='contact'/>
     </div>
   );
 }
