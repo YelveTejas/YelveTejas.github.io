@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {Link} from '@chakra-ui/react'
 
-const Contacts = () => {
+const Contacts = ({id}) => {
   return (
-    <div name='contact'>
+    <div name='contact' id={id}>
       <Container mt='3cm'>
         <Text fontSize='2rem' fontWeight='bold' color='#ff8533'>Contacts</Text>
       </Container>

@@ -14,13 +14,13 @@ import { Carousel } from 'react-responsive-carousel'
  import GitHubCalendar from 'react-github-calendar'
  import amazon from './amazon/amazon.png'
 
-const Projects = () => {
+const Projects = ({id}) => {
 
     useEffect(()=>{
         Aos.init()
     },[])
   return (
-    <div name='project'>
+    <div name='project' id={id}>
           <Text mt={20} fontSize='2rem' fontWeight='medium' color='orange.500' textAlign='center'>MY PROJECTS</Text>
           <SimpleGrid
           h='auto'

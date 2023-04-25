@@ -12,7 +12,7 @@ function App() {
     <div className="App">
      <Navbar id='nav-menu'/>
      <Home id='home'/>
-     <About id='about' className='about section'/>
+     <About id='about' />
      <TechStack id='skills'/>
      <Projects id='projects'/>
      <Contacts id='contact'/>

@@ -91,12 +91,12 @@ const skills=[
     title:'React'
   }
 ]
-const TechStack = () => {
+const TechStack = ({id}) => {
   useEffect(()=>{
     Aos.init()
   },[])
   return (
-    <div name='skills'>
+    <div name='skills' id={id}>
       <Container mt='3cm'>
         <Text fontSize='2rem' fontWeight='bold' color='#ff8533'>Skills</Text>
       </Container>
