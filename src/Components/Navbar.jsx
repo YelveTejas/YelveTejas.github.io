@@ -4,11 +4,11 @@ import Drawermenu from './Drawermenu'
 import { FaSun,FaMoon } from 'react-icons/fa'
 import {Link} from 'react-scroll'
 
-const Navbar = () => {
+const Navbar = ({id}) => {
     const {colorMode,toggleColorMode} = useColorMode();
     const isdark = colorMode ==='dark'
   return (
-    <div name='Navbar'>
+    <div name='Navbar'id={id}>
        <Flex
        className='main'
         py={4}

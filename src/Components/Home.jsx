@@ -9,11 +9,11 @@ import {FaGithub} from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import Resume from '../images/fw17_0469_Tejas_Yelve_Resume.pdf'
 import './navbar.css'
-const Home = () => {
+const Home = ({id}) => {
   const {toggleColorMode} = useColorMode()
   const color = useColorModeValue('black','white')
   return (
-    <Box>
+    <Box id={id}>
         <SimpleGrid columns={{base:'1',md:'2',lg:'2'}} spacingX='8cm' alignContent='center'  px={{base:'1cm',md:'1cm',lg:'4cm'}} margin='auto' mt='3cm' >
           <Box  mt={{md:'1cm',lg:"1cm"}} h={{md:'10cm'}}  w={{base:'8.5cm',md:'10cm',lg:'13cm'}} >
           <Text fontWeight='bold' align='left' fontSize='1.5rem'>Hello,I am</Text>
@@ -30,7 +30,6 @@ const Home = () => {
                                 2000,
                                 "A MERN Stack Developer.",
                                 2000,
-                             
                             ]
                             }
                             />
