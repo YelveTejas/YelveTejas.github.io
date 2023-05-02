@@ -36,7 +36,7 @@ const Home = ({id}) => {
                         </h1>
                 </Text>
                 <Link href={Resume} target='_blank' download>
-                <Button id='resume-button-1' bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
+                <Button id='resume-button-2' bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
                 </Link>
                 <HStack spacing={5} mt='15px'>
                   <Link href='https://github.com/YelveTejas' isExternal>
