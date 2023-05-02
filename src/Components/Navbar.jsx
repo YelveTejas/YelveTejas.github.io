@@ -48,7 +48,7 @@ const Navbar = ({id}) => {
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
            
-                <a className='nav-link resume' id='resume-link-1' href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' rel='noreferrer' target={'_blank'}>
+                <a className='nav-link resume' id='resume-link-1' href='https://drive.google.com/file/d/1MwNQqxvmoOkdOlT5a7uHJkXuF1thFaAs/view?usp=share_link' rel='noreferrer' target='_blank' download>
                 <Text cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
                 </a>
                  
