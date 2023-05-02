@@ -105,7 +105,6 @@ const Projects = ({id}) => {
                         <div>
                         <img style={{borderRadius:'7px', height:'300px'}} src={tripoto2} alt='gb1'></img>
                         </div>
-                       
                     <div>
                 <Text mt={2}
                  fontSize='xx-large'
