@@ -31,8 +31,9 @@ const Projects = ({id}) => {
           mt='20px'
           borderRadius='8px'
           boxShadow='2xl'
+          className='"project-card'
           >
-            <Box data-aos='fade-up' data-aos-duration='1500' className='"project-card' >
+            <Box data-aos='fade-up' data-aos-duration='1500' >
                 <Box w='95%' p={3} >
                     {/* <Carousel
                     showThumbs={false}
@@ -96,6 +97,7 @@ const Projects = ({id}) => {
           mt='20px'
           borderRadius='8px'
           boxShadow='2xl'
+          className='"project-card'
           >
             <Box data-aos='fade-up' data-aos-duration='1500'className='project-card' >
                 <Box w='95%' p={3} >
@@ -149,6 +151,7 @@ const Projects = ({id}) => {
           mt='20px'
           borderRadius='8px'
           boxShadow='2xl'
+          className='"project-card'
           >
             <Box data-aos='fade-up' data-aos-duration='1500' className='project-card' >
                 <Box w='95%' p={3} >
@@ -200,6 +203,7 @@ const Projects = ({id}) => {
           mt='20px'
           borderRadius='8px'
           boxShadow='2xl'
+          className='"project-card'
           >
             <Box data-aos='fade-up' data-aos-duration='1500' className='project-card' >
                 <Box w='95%' p={3} >
