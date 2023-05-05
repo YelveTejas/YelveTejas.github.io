@@ -3,10 +3,25 @@ import React from 'react'
 import Drawermenu from './Drawermenu'
 import { FaSun,FaMoon } from 'react-icons/fa'
 import {Link} from 'react-scroll'
+import Resume from '../images/Tejas_yelve.pdf'
+import { saveAs } from 'file-saver';
 
 const Navbar = ({id}) => {
     const {colorMode,toggleColorMode} = useColorMode();
     const isdark = colorMode ==='dark'
+   
+  const downloadFile = () => {
+    window.open("https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link", "_blank")
+    const filename = 'Tejas_yelve_resume.pdf'; // the name of the file you want to download
+    const file = Resume; // the path to the file you want to download
+    fetch(file)
+      .then((response) => response.blob())
+      .then((blob) => {
+        saveAs(blob, filename);
+      })
+      .catch((error) => console.error(error));
+  };
+
   return (
     <div name='Navbar'id={id}>
        <Flex
@@ -48,11 +63,10 @@ const Navbar = ({id}) => {
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Contact</Text>
               </Link>
            
-                <a className='nav-link resume' id='resume-link-1' href='https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link' rel='noreferrer' target='_blank' download>
-                <Text  cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
-                </a>
-                 
-              
+                <Button onClick={downloadFile} className='nav-link resume' id='resume-button-1' >
+                <Text id='' cursor='pointer' fontWeight='medium' size='4xl'>Resume</Text>
+                </Button>
+                
         </HStack>
     
        </Flex>
