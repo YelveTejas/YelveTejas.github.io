@@ -16,8 +16,6 @@ const About = ({id}) => {
           <Box  mt='-30px' data-aos="fade-right"   w={{base:'9cm',md:'100%',lg:'21cm'}} >
                 <Text className='about section'  align='center' id='user-detail-intro'  fontSize={{base:'1.2rem',md:'1.1rem',lg:'1.5rem'}} fontWeight='normal' px={{base:'10px',md:'1cm',lg:'1cm'}} pt='1cm'>Analytical and detail-oriented Full Stack Developer. Hands-on experience in Javascript, React, Data structure, and algorithms. Passionate about learning new technologies and their applications to solve real-life problems. Ability to write clean, optimized, and reusable code. Looking forward to opportunities that can bring challenges and learning to hone skills.</Text>
             </Box>
-            
-           
         </Stack>   
          
     </div>

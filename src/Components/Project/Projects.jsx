@@ -99,9 +99,8 @@ const Projects = ({id}) => {
           boxShadow='2xl'
           className='project-card'
           >
-            <Box data-aos='fade-up' data-aos-duration='1500'className='project-card' >
+            <Box data-aos='fade-up' data-aos-duration='1500'className='project-card'  >
                 <Box w='95%' p={3} >
-                    
                         <div>
                         <img style={{borderRadius:'7px', height:'300px'}} src={tripoto2} alt='gb1'></img>
                         </div>

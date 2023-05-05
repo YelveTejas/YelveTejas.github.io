@@ -7,11 +7,15 @@ import { useMediaQuery } from '@chakra-ui/react'
 import {motion} from 'framer-motion'
 import {FaGithub} from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-import Resume from '../images/fw17_0469_Tejas_Yelve_Resume.pdf'
+import Resume from '../images/Tejas_yelve.pdf'
 import './navbar.css'
 const Home = ({id}) => {
   const {toggleColorMode} = useColorMode()
   const color = useColorModeValue('black','white')
+
+  const download=()=>{
+    window.open('https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link',"_blank")
+  }
   return (
     <Box id={id}>
         <SimpleGrid columns={{base:'1',md:'2',lg:'2'}} spacingX='8cm' alignContent='center'  px={{base:'1cm',md:'1cm',lg:'4cm'}} margin='auto' mt='3cm' >
@@ -35,8 +39,8 @@ const Home = ({id}) => {
                             />
                         </h1>
                 </Text>
-                <Link href={Resume} target='_blank' download>
-                <Button id='resume-button-2' bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
+                <Link href={Resume}  download>
+                <Button  onClick={download} id='resume-button-2' bg='#ff8533' size={{base:'md',md:"md",lg:'lg'}} mr={{base:'6cm',lg:'10cm'}} mt={{base:"10px"}} >Resume</Button>
                 </Link>
                 <HStack spacing={5} mt='15px'>
                   <Link href='https://github.com/YelveTejas' isExternal>
