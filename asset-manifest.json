@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bfcd44de.css",
-    "main.js": "/static/js/main.c29e873f.js",
+    "main.js": "/static/js/main.0b4ba243.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/home.png": "/static/media/home.9ce197cd354c0937e6ca.png",
     "static/media/amazon.png": "/static/media/amazon.c0b820a1f9b102f1f5bd.png",
@@ -11,7 +11,7 @@
     "static/media/productPage.png": "/static/media/productPage.b5fd354c6ebf6775b90e.png",
     "static/media/gearbest_addtocart.png": "/static/media/gearbest_addtocart.4a96be2a679e522f6194.png",
     "static/media/profilepic_whitebg.jpg": "/static/media/profilepic_whitebg.5f2fb72956475b9d29cf.jpg",
-    "static/media/fw17_0469_Tejas_Yelve_Resume.pdf": "/static/media/fw17_0469_Tejas_Yelve_Resume.54e9dd76c08e0420db93.pdf",
+    "static/media/Tejas_yelve.pdf": "/static/media/Tejas_yelve.66ee362ed1b0efadf909.pdf",
     "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.5275c4a09c53acc8fa8b.jpg",
     "static/media/java_script.jpg": "/static/media/java_script.2a1410b38a792b28dbc2.jpg",
@@ -23,11 +23,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.bfcd44de.css.map": "/static/css/main.bfcd44de.css.map",
-    "main.c29e873f.js.map": "/static/js/main.c29e873f.js.map",
+    "main.0b4ba243.js.map": "/static/js/main.0b4ba243.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfcd44de.css",
-    "static/js/main.c29e873f.js"
+    "static/js/main.0b4ba243.js"
   ]
 }
