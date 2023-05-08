@@ -9,22 +9,23 @@ import {FaGithub} from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import Resume from '../images/Tejas_yelve.pdf'
 import { saveAs } from 'file-saver';
+import { downloadFile } from './resume'
 import './navbar.css'
 const Home = ({id}) => {
   const {toggleColorMode} = useColorMode()
   const color = useColorModeValue('black','white')
 
-  const downloadFile = () => {
-    window.open("https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link", "_blank")
-    const filename = 'Tejas_yelve_resume.pdf'; // the name of the file you want to download
-    const file = Resume; // the path to the file you want to download
-    fetch(file)
-      .then((response) => response.blob())
-      .then((blob) => {
-        saveAs(blob, filename);
-      })
-      .catch((error) => console.error(error));
-  };
+  // const downloadFile = () => {
+  //   window.open("https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link", "_blank")
+  //   const filename = 'Tejas_yelve_resume.pdf'; // the name of the file you want to download
+  //   const file = Resume; // the path to the file you want to download
+  //   fetch(file)
+  //     .then((response) => response.blob())
+  //     .then((blob) => {
+  //       saveAs(blob, filename);
+  //     })
+  //     .catch((error) => console.error(error));
+  // };
 
   return (
     <Box id={id}>
