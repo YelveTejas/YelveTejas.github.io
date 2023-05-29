@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bfcd44de.css",
-    "main.js": "/static/js/main.db45d71a.js",
+    "main.js": "/static/js/main.5ab5f326.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/home.png": "/static/media/home.9ce197cd354c0937e6ca.png",
     "static/media/amazon.png": "/static/media/amazon.c0b820a1f9b102f1f5bd.png",
@@ -14,6 +14,7 @@
     "static/media/Tejas_yelve.pdf": "/static/media/Tejas_yelve.66ee362ed1b0efadf909.pdf",
     "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.5275c4a09c53acc8fa8b.jpg",
+    "static/media/todoapp.png": "/static/media/todoapp.5e2aeba74d292786cf24.png",
     "static/media/java_script.jpg": "/static/media/java_script.2a1410b38a792b28dbc2.jpg",
     "static/media/git.jpg": "/static/media/git.abbe0463d41f97043f3d.jpg",
     "static/media/html.jpg": "/static/media/html.5aeb7784a4f555fd7741.jpg",
@@ -23,11 +24,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.bfcd44de.css.map": "/static/css/main.bfcd44de.css.map",
-    "main.db45d71a.js.map": "/static/js/main.db45d71a.js.map",
+    "main.5ab5f326.js.map": "/static/js/main.5ab5f326.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfcd44de.css",
-    "static/js/main.db45d71a.js"
+    "static/js/main.5ab5f326.js"
   ]
 }
