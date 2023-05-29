@@ -11,6 +11,7 @@ import { Carousel } from 'react-responsive-carousel'
  import {FaGithub, FaRegEye} from 'react-icons/fa'
  import tripoto1 from './tripoto/home.png'
  import tripoto2 from './tripoto/booking.png'
+ import todoapp from './todoapp/todoapp.png'
  import GitHubCalendar from 'react-github-calendar'
  import amazon from './amazon/amazon.png'
 
@@ -45,7 +46,7 @@ const Projects = ({id}) => {
                     showArrows={true}
                     > */}
                         <div>
-                        <img style={{borderRadius:'7px', height:'300px'}} src={gearbest2} alt='gb1'></img>
+                        <img style={{borderRadius:'7px', height:'300px'}} src={todoapp} alt='gb1'></img>
                         </div>
                         {/* <div>
                         <img style={{borderRadius:'7px', height:'300px'}} src={gearbest2} alt='gb1'></img>
@@ -60,7 +61,7 @@ const Projects = ({id}) => {
                  color='orange.500'
                  fontWeight='semibold'
                 className='project-title'
-                >Gearbest.com</Text>     
+                >Todoapp.com</Text>     
                     </div>
                 </Box>
             </Box>
@@ -69,21 +70,21 @@ const Projects = ({id}) => {
                 <Box p={3}>
                   <Text letterSpacing={1.5} fontSize='x-large' color='orange.500' fontWeight='semibold'  className='project-description'>About Project</Text>
                   <div >
-                    <Text fontSize='large' className='project-description' >Gearbest provides the most cost-efficient delivery service covering 200+ countries and regions, most of which enjoy free door-to-door delivery. Gearbest works closely with over 5,000 famous Chinese brands and top suppliers, including over 1,000 top brands like Xiaomi, Lenovo, Huawei.</Text>
+                    <Text fontSize='large' className='project-description'>Full stack todo app where you can add, delete, update your todos. </Text>
                   </div>
                 
                   <Text mt={4} fontSize={"x-large"} color="orange.500" fontWeight='semibold'>Tech-Stack</Text>
                   <Text fontSize={'large'} className='project-tech-stack'>
-                    HTML | CSS | Javascript
+                   Mongodb | MUI | React | Node.js | Express.js | Redux | Middleware
                   </Text>
                   <Text mt={4} fontSize={'x-large'} color='orange.500' fontWeight='semibold'>Role</Text>
                   <Text fontSize={'large'}>It was an individual Project.</Text>
                   <Flex gap={{base:'210px',md:'30px',lg:'30px'}} mt={2} ml='10%'>
-                  <Link className='project-deployed-link' href='https://ornate-toffee-ccef40.netlify.app/' isExternal>
+                  <Link className='project-deployed-link' href='https://sparkly-sherbet-8b2367.netlify.app/' isExternal>
                   <FaRegEye size={'2rem'}/>
                   </Link>
                   
-                  <Link className='project-github-link' href='https://github.com/YelveTejas/Individual-Project/tree/main/Individual%20Project' isExternal>
+                  <Link className='project-github-link' href='https://github.com/YelveTejas/Todo-frontend' isExternal>
                   <FaGithub size={'2rem'}/>
                   </Link>
                   </Flex>
