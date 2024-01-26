@@ -11,38 +11,21 @@ const Navbar = ({id}) => {
     const {colorMode,toggleColorMode} = useColorMode();
     const isdark = colorMode ==='dark'
    
-  // const downloadFile = () => {
-  //   window.open("https://drive.google.com/file/d/1OLxTThKBDvk85P1UsMgej-E8EQRAfm-E/view?usp=share_link", "_blank")
-  //   const filename = 'Tejas_yelve_resume.pdf'; // the name of the file you want to download
-  //   const file = Resume; // the path to the file you want to download
-  //   fetch(file)
-  //     .then((response) => response.blob())
-  //     .then((blob) => {
-  //       saveAs(blob, filename);
-  //     })
-  //     .catch((error) => console.error(error));
-  // };
-
   return (
     <div name='Navbar'id={id}>
        <Flex
        className='main'
         py={4}
-         px={{ base: 5,md:10,lg:10}}
-        
+        px={{ base: 5,md:10,lg:10}}
         w='100%'
         top='0'
         bg='#ff8533'
         boxShadow='2xl'
         alignItems='center'
-        // gap='5'
+        
        >
         <Button variant='ghost'>
-                
-                    <Text
-                     fontSize="2xl" >TY
-                     </Text>
-               
+        <Text fontSize="2xl" >TY</Text>         
         </Button>
         <Spacer/>
         <Drawermenu/>

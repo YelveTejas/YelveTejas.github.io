@@ -14,6 +14,7 @@ import netlyfy from './Images/netlyfy.png'
 import redux from './Images/redux.jpg'
 import heroku from './Images/heroku.png'
 import react from './Images/react.png'
+import typescript from './Images/typescript.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
@@ -89,6 +90,11 @@ const skills=[
     id:14,
     icon:react,
     title:'React'
+  },
+  {
+    id:15,
+    icon:typescript,
+    title:'Typescript'
   }
 ]
 const TechStack = ({id}) => {

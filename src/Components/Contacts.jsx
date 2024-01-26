@@ -3,6 +3,8 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {Link} from '@chakra-ui/react'
+import { SiGmail } from "react-icons/si";
+
 
 const Contacts = ({id}) => {
   return (
@@ -21,10 +23,10 @@ const Contacts = ({id}) => {
             <FaGithub size='3rem'/>
             </Link>
             <Link id='contact-linkedin' href='https://www.linkedin.com/in/tejas-yelve-b889671bb/' isExternal>
-            <FaLinkedin size='3rem'/>
+            <FaLinkedin size='3rem' color='blue'/>
             </Link>
             <Link >
-            <AiTwotoneMail size='3rem'/>
+            <SiGmail size='3rem' color='red'/>
             </Link>
         
          </Box>
