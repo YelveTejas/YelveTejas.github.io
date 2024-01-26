@@ -86,8 +86,8 @@ const Drawermenu = () => {
               target={"_blank"}
             >
               <Text cursor="pointer" size="xl">
-                Resume
-              </Text>
+                 Resume
+               </Text>
             </a>
           </MenuItem>
         </MenuList>
