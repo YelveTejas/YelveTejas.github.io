@@ -72,12 +72,14 @@ const Projects = ({ id }) => {
               >
               blogapp.com
              
+              
               </Text>
             </div>
           </Box>
         </Box>
         <Box data-aos="fade-up" data-aos-duration="1500">
           <Box p={3}>
+           
             <Text
               letterSpacing={1.5}
               fontSize="x-large"
