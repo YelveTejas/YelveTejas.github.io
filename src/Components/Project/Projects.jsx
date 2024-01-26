@@ -71,6 +71,7 @@ const Projects = ({ id }) => {
                 className="project-title"
               >
               blogapp.com
+             
               </Text>
             </div>
           </Box>
