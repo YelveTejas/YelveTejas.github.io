@@ -14,6 +14,9 @@ code {
 .Box {
   width: 100%;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 @media screen and (min-width: 30em) {
   .Box {

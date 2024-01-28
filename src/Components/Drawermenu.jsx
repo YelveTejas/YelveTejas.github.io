@@ -48,6 +48,17 @@ const Drawermenu = () => {
           </MenuItem>
           <MenuItem>
             <Link
+              to="experiance"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-55}
+            >
+              <Text size="xl">Experiance</Text>
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link
               to="skills"
               activeClass="active"
               spy={true}

@@ -14,18 +14,18 @@ const Navbar = ({id}) => {
   return (
     <div name='Navbar'id={id}>
        <Flex
-       className='main'
+        className='main'
         py={4}
         px={{ base: 5,md:10,lg:10}}
         w='100%'
         top='0'
         bg='#ff8533'
-        boxShadow='2xl'
+        boxShadow='1xl'
         alignItems='center'
         
        >
         <Button variant='ghost'>
-        <Text fontSize="2xl" >TY</Text>         
+        <Text fontStyle={'italic'} fontSize="2xl" fontWeight={'600'}>{`<Tejas/>`}</Text>         
         </Button>
         <Spacer/>
         <Drawermenu/>
@@ -36,6 +36,9 @@ const Navbar = ({id}) => {
               </Link>
               <Link to='about' className='nav-link about' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>About</Text>
+              </Link>
+              <Link to='experiance' className='nav-link experiance' activeClass='active' spy={true} smooth={true} offset={-100}>
+                  <Text cursor='pointer' fontWeight='medium' size='4xl'>Experiance</Text>
               </Link>
               <Link to='skills' className='nav-link skills' activeClass='active' spy={true} smooth={true} offset={-100}>
                   <Text cursor='pointer' fontWeight='medium' size='4xl'>Skills</Text>
