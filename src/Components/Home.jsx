@@ -23,6 +23,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { downloadFile } from "./resume";
 import "./navbar.css";
+import { SocialLink } from "./Sociallinks";
 const Home = ({ id }) => {
  
   const color = useColorModeValue("black", "white");
@@ -88,59 +89,22 @@ const Home = ({ id }) => {
           </Button>
 
           <HStack spacing={5} mt="15px">
-            <Link href="https://github.com/YelveTejas" isExternal>
-            <Box
-            _before={{
-              content: "''",
-              position: "absolute",
-              bottom: "0",
-              left: "0",
-              right: "0",
-              height: "100%",
-              transition: ".5s",
-              background: "black",
-              transform: "translateY(100%)",
-            }}
-            className="social-hover"
-          >
-            <Icon
-              as={FaGithub}
-              className="icon"
-              color="#262626"
-              position="relative"
-              transition=".5s"
-              zIndex={2}
-            />
-          </Box>
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
-              isExternal
-            >
-                        <Box
-            _before={{
-              content: "''",
-              position: "absolute",
-              bottom: "0",
-              left: "0",
-              right: "0",
-              height: "100%",
-              transition: ".5s",
-              background: "#3b5999",
-              transform: "translateY(100%)",
-            }}
-            className="social-hover"
-          >
-            <Icon
-              as={FaLinkedin}
-              className="icon"
-              color="#262626"
-              position="relative"
-              transition=".5s"
-              zIndex={2}
-            />
-          </Box>
-            </Link>
+          <SocialLink
+             id="contact-linkedin"
+             href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
+             color="#262626"
+             background="#3b5999"
+             icon={FaLinkedin}
+             label="LinkedIn"
+          />
+            <SocialLink
+            id="contact-github"
+            href="https://github.com/YelveTejas"
+            color="#262626"
+            background="black"
+            icon={FaGithub}
+            label="GitHub"
+         />
           </HStack>
         </Box>
         <motion.div

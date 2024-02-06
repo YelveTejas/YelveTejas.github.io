@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { Link } from "@chakra-ui/react";
 import { SiGmail } from "react-icons/si";
+import { SocialLink } from "./Sociallinks";
 
 const Contacts = ({ id }) => {
   return (
@@ -46,89 +47,30 @@ const Contacts = ({ id }) => {
           display="flex"
           justifyContent="space-around"
         >
-          <Link
-            id="contact-github"
-            href="https://github.com/YelveTejas"
-            isExternal
-          >
-            <Box
-              _before={{
-                content: "''",
-                position: "absolute",
-                bottom: "0",
-                left: "0",
-                right: "0",
-                height: "100%",
-                transition: ".5s",
-                background: "black",
-                transform: "translateY(100%)",
-              }}
-              className="social-hover"
-            >
-              <Icon
-                as={FaGithub}
-                className="icon"
-                color="#262626"
-                position="relative"
-                transition=".5s"
-                zIndex={2}
-              />
-            </Box>
-          </Link>
-          <Link
-            id="contact-linkedin"
-            href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
-            isExternal
-          >
-            <Box
-              _before={{
-                content: "''",
-                position: "absolute",
-                bottom: "0",
-                left: "0",
-                right: "0",
-                height: "100%",
-                transition: ".5s",
-                background: "#3b5999",
-                transform: "translateY(100%)",
-              }}
-              className="social-hover"
-            >
-              <Icon
-                as={FaLinkedin}
-                className="icon"
-                color="#262626"
-                position="relative"
-                transition=".5s"
-                zIndex={2}
-              />
-            </Box>
-          </Link>
-          <Link id="contact-gmail">
-            <Box
-              _before={{
-                content: "''",
-                position: "absolute",
-                bottom: "0",
-                left: "0",
-                right: "0",
-                height: "100%",
-                transition: ".5s",
-                background: "red",
-                transform: "translateY(100%)",
-              }}
-              className="social-hover"
-            >
-              <Icon
-                as={SiGmail}
-                className="icon"
-                color="black"
-                position="relative"
-                transition=".5s"
-                zIndex={2}
-              />
-            </Box>
-          </Link>
+            <SocialLink
+             id="contact-linkedin"
+             href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
+             color="#262626"
+             background="black"
+             icon={FaGithub}
+             label="LinkedIn"
+          />
+          <SocialLink
+             id="contact-linkedin"
+             href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
+             color="#262626"
+             background="#3b5999"
+             icon={FaLinkedin}
+             label="LinkedIn"
+           />
+          <SocialLink
+             id="contact-gmail"
+             href="mailto:your-email@example.com"
+             color="black"
+             background="red"
+             icon={SiGmail}
+             label="Gmail"
+          />
         </Box>
       </Box>
     </div>
