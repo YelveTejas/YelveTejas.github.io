@@ -12,6 +12,7 @@ import {
   Flex,
   Link,
   LinkBox,
+  Icon,
 } from "@chakra-ui/react";
 import React from "react";
 import Typical from "react-typical";
@@ -88,13 +89,57 @@ const Home = ({ id }) => {
 
           <HStack spacing={5} mt="15px">
             <Link href="https://github.com/YelveTejas" isExternal>
-              <FaGithub cursor="pointer" size="3rem" />
+            <Box
+            _before={{
+              content: "''",
+              position: "absolute",
+              bottom: "0",
+              left: "0",
+              right: "0",
+              height: "100%",
+              transition: ".5s",
+              background: "black",
+              transform: "translateY(100%)",
+            }}
+            className="social-hover"
+          >
+            <Icon
+              as={FaGithub}
+              className="icon"
+              color="#262626"
+              position="relative"
+              transition=".5s"
+              zIndex={2}
+            />
+          </Box>
             </Link>
             <Link
               href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
               isExternal
             >
-              <FaLinkedin cursor="pointer" size="3rem" />
+                        <Box
+            _before={{
+              content: "''",
+              position: "absolute",
+              bottom: "0",
+              left: "0",
+              right: "0",
+              height: "100%",
+              transition: ".5s",
+              background: "#3b5999",
+              transform: "translateY(100%)",
+            }}
+            className="social-hover"
+          >
+            <Icon
+              as={FaLinkedin}
+              className="icon"
+              color="#262626"
+              position="relative"
+              transition=".5s"
+              zIndex={2}
+            />
+          </Box>
             </Link>
           </HStack>
         </Box>

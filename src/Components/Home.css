@@ -1,0 +1,31 @@
+.social-hover {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 60px;
+    font-size: 32px;
+    margin: 0 10px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    transition: border-color 0.3s ease;
+  
+  }
+  
+  .social-hover:hover {
+    border-color: #fff;
+  }
+  
+  .social-hover:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .social-hover:hover::before {
+    transform: translateY(0);
+  }
+  
