@@ -19,7 +19,7 @@ const Experiance = ({ id }) => {
     "Developed and implemented UI components based on Figma designs, contributing to the live production environment.",
     "Actively participated in real-time projects, gaining hands-on experience in the MERN stack and collaborating with a dynamic development team.",
     "Successfully acquired proficiency in TypeScript, adding depth to overall development capabilities and adapting to evolving industry standards.",
-    "Demonstrated a meticulous attention to detail in crafting robust and user-friendly solutions, ensuring high-quality deliverables.",
+    "Demonstrated  meticulous attention to detail in crafting robust and user-friendly solutions, ensuring high-quality deliverables.",
   ];
   return (
     <div id={id} name="experiance">
@@ -32,7 +32,7 @@ const Experiance = ({ id }) => {
         size="lg"
         mt="3cm"
       >
-        Experiance
+        Experience
       </Text>
       <Box
         display={{ base: "block", lg: "flex" }}

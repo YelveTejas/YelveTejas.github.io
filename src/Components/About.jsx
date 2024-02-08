@@ -17,16 +17,17 @@ const About = ({ id }) => {
         fontWeight={"medium"}
         textAlign={"center"}
         textTransform={"uppercase"}
+        mt={{base:'50px',lg:"none"}}
       >
         About Me
       </Text>
 
       <Stack
         w={{ lg: "80%", md: "90%" }}
-        direction={{ base: "column", md: "row", lg: "row" }}
+        direction={{ base: "column", md: "row"}}
         margin="auto"
         h="auto"
-        gap={5}
+        gap={{base:2,lg:5}}
         alignItems="center"
         data-aos="fade-up"
         data-aos-duration="1500"
@@ -49,7 +50,7 @@ const About = ({ id }) => {
             fontSize={{ base: "1.2rem", md: "1.1rem", lg: "1.4rem" }}
             fontWeight="normal"
             px={{ base: "10px", md: "1cm", lg: "1cm" }}
-            pt="1cm"
+            pt={{base:"20px",lg:'1cm'}}
           >
             As an analytical and detail-oriented Full Stack Developer,
             expertise extends to JavaScript, React, Data Structures and

@@ -118,6 +118,7 @@ const Home = ({ id }) => {
             w={{ lg: "8cm", md: "10cm", base: "7cm" }}
             h={{ lg: "8cm", md: "7cm", base: "7cm" }}
             mt={{ base: "1cm" }}
+            mx={{base:"auto",lg:"none"}}
             borderRadius="10px"
             boxShadow="lg"
             src={my_image}

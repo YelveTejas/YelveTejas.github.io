@@ -19,6 +19,7 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 import React, { useRef } from "react";
 import { Link } from "react-scroll";
+import { downloadFile } from "./resume";
 
 const Drawermenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -91,15 +92,11 @@ const Drawermenu = () => {
             </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="https://drive.google.com/file/d/1Y7DFIqh6waMPzkrTOb2u2MvRTJfo4nMv/view?usp=share_link"
-              rel="noreferrer"
-              target={"_blank"}
-            >
-              <Text cursor="pointer" size="xl">
+           
+              <Text cursor="pointer" size="xl" onClick={downloadFile}>
                  Resume
                </Text>
-            </a>
+           
           </MenuItem>
         </MenuList>
       </Menu>

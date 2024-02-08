@@ -10,12 +10,17 @@ import { SocialLink } from "./Sociallinks";
 const Contacts = ({ id }) => {
   return (
     <div name="contact" id={id}>
-      <Container mt="3cm">
-        <Text fontSize="2rem" fontWeight="bold" color="#ff8533">
+   
+        <Text  
+        color="orange.500"
+        fontSize={"2rem"}
+        fontWeight={"medium"}
+        textAlign={"center"}
+        textTransform={"uppercase"}
+        mt={{base:'50px',lg:"none"}}>
           Contacts
-        </Text>
-      </Container>
-      <Box h="10cm" mt="20px" alignItems="center">
+        </Text>  
+        <Box h="10cm" mt="20px" alignItems="center">
         <Text
           pt="20px"
           id="contact-phone"
