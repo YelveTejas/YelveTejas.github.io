@@ -36,7 +36,7 @@ const Projects = ({ id }) => {
   const projectData = [
     {
       imageSrc: blogapp,
-      title: "blogapp.com",
+      title: "Blog App",
       description: "Blog app where you can add, delete, update the blogs. Users can see other authors' blogs but can't edit or delete them. Includes a comment section.",
       techStack: "Mongodb | MUI | React | Node.js | Express.js | Jwt",
       role: "Individual Project",
@@ -45,7 +45,7 @@ const Projects = ({ id }) => {
     },
     {
       imageSrc: todoapp,
-      title: "Todoapp.com",
+      title: "Todo App",
       description: "  Full stack todo app where you can add, delete, update your todos.",
       techStack: "Mongodb | MUI | React | Node.js | Express.js | Redux | Middleware",
       role: "It was an individual Project.",
