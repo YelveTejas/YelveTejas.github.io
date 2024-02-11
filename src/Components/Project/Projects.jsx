@@ -1,30 +1,13 @@
 import {
-  Box,
-  Container,
-  Flex,
-  Image,
-  Link,
-  SimpleGrid,
-  Spacer,
-  Stack,
   Text,
 } from "@chakra-ui/react";
 import Aos from "aos";
 import React from "react";
 import { useEffect } from "react";
-import { Carousel } from "react-responsive-carousel";
-import gearbest1 from "./Gearbest/gearbest_addtocart.png";
-import gearbest2 from "./Gearbest/home_page.png";
+import masaialumni from "./blogapp/masai_alumni.png"
 import jio_home from "./amazon/jio_home.png";
-import chargebee1 from "./chargebee/home.png";
-import gearbest3 from "./Gearbest/productPage.png";
-import { FaGithub, FaRegEye } from "react-icons/fa";
-import tripoto1 from "./tripoto/home.png";
 import tripoto2 from "./tripoto/booking.png";
 import todoapp from "./todoapp/todoapp.png";
-import blogapp from './blogapp/homepage1.png'
-import GitHubCalendar from "react-github-calendar";
-import amazon from "./amazon/amazon.png";
 import ProjectCard from "./ProjectCard";
 import GitStats from "../GitStats";
 
@@ -34,14 +17,15 @@ const Projects = ({ id }) => {
   }, []);
 
   const projectData = [
+    
     {
-      imageSrc: blogapp,
-      title: "Blog App",
-      description: "Blog app where you can add, delete, update the blogs. Users can see other authors' blogs but can't edit or delete them. Includes a comment section.",
-      techStack: "Mongodb | MUI | React | Node.js | Express.js | Jwt",
-      role: "Individual Project",
-      deployedLink: "https://writestory.netlify.app/",
-      githubLink: "https://github.com/YelveTejas/BlogApp",
+      imageSrc: masaialumni,
+      title: "Masai Alumni",
+      description: "Masai Alumni is a live project designed for Masai School alumni who have completed the courses and successfully secured jobs.",
+      techStack: "Mongodb | Express.js| Redux | Typescript | Chakra UI | React | Node.js | Jwt | Socket.io",
+      role: "It was group project executed in 2 months",
+      deployedLink:"https://masai-alumni-temp.onrender.com/",
+      githubLink: "https://github.com/YelveTejas/masai-alumni-temp",
     },
     {
       imageSrc: todoapp,
