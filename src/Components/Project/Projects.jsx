@@ -4,12 +4,13 @@ import {
 import Aos from "aos";
 import React from "react";
 import { useEffect } from "react";
-import masaialumni from "./blogapp/masai_alumni.png"
-import jio_home from "./amazon/jio_home.png";
-import tripoto2 from "./tripoto/booking.png";
-import todoapp from "./todoapp/todoapp.png";
+import masaialumni from "./ProjectImages/masai_alumni.png"
+import jio_home from "./ProjectImages/jio_home.png"
+import tripoto2 from "./ProjectImages/booking.png";
+import todoapp from "./ProjectImages/todoapp.png";
 import ProjectCard from "./ProjectCard";
 import GitStats from "../GitStats";
+import wechat from "./ProjectImages/wechatapp.png"
 
 const Projects = ({ id }) => {
   useEffect(() => {
@@ -26,6 +27,15 @@ const Projects = ({ id }) => {
       role: "It was group project executed in 2 months",
       deployedLink:"https://masai-alumni-temp.onrender.com/",
       githubLink: "https://github.com/YelveTejas/masai-alumni-temp",
+    },
+    {
+      imageSrc: wechat,
+      title: "Wechat",
+      description: "The real-time chat application has been developed with user-friendly features, enabling seamless one-on-one conversations and group discussions. Notably, a group chat functionality is in place, exclusively administered by designated personnel with the authority to manage users. Additionally, a typing indicator and notifications has been implemented to provide real-time feedback during conversations.",
+      techStack: "Socket.io |Mongodb | Express.js| Redux |  Chakra UI | React | Node.js | Jwt ",
+      role: "It was individual project executed in 2 weeks",
+      deployedLink:"https://chatspehre.netlify.app/",
+      githubLink: "https://github.com/YelveTejas/wechat",
     },
     {
       imageSrc: todoapp,
