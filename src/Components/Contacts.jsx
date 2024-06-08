@@ -54,7 +54,7 @@ const Contacts = ({ id }) => {
         >
             <SocialLink
              id="contact-linkedin"
-             href="https://www.linkedin.com/in/tejas-yelve-b889671bb/"
+             href="https://github.com/YelveTejas"
              color="#262626"
              background="black"
              icon={FaGithub}
